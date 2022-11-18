@@ -33,7 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
         try {
             process = Runtime.getRuntime().exec(Su);
             loginpage.setVisibility(View.GONE);
-            rootText.setText("It is rooted device");
+            rootText.setText("It is rooted devices");
         } catch (Exception e) {
             rootText.setText("It is not rooted device");
             loginpage.setVisibility(View.VISIBLE);
