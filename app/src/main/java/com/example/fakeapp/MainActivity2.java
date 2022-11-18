@@ -21,6 +21,9 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         rootText = findViewById(R.id.textView);
         loginpage = findViewById(R.id.Next);
+        IntentFilter intentfilter = new IntentFilter("com.example.fakeapp.CUSTOM_INTENT");
+        MyReceiver broadcastreceiver = new MyReceiver();
+        registerReceiver(broadcastreceiver,intentfilter);
         Rootchecker("su");
 
     }
@@ -35,9 +38,6 @@ public class MainActivity2 extends AppCompatActivity {
             rootText.setText("It is not rooted device");
             loginpage.setVisibility(View.VISIBLE);
             Toast.makeText(MainActivity2.this, "It is not rooted device", Toast.LENGTH_LONG).show();
-            IntentFilter intentfilter = new IntentFilter("com.example.fakeapp.CUSTOM_INTENT");
-            MyReceiver broadcastreceiver = new MyReceiver();
-            registerReceiver(broadcastreceiver,intentfilter);
             loginpage.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View view) {
