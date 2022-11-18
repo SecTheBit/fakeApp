@@ -19,7 +19,7 @@
 # Usage
 * You can compile the application or can use the already compiled apk from here.
 
-# Walkthrough
+# Walkthrough (In Progress)
 * You can check my blog for the writeup/walkthrough.
 
 # Creator
