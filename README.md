@@ -4,6 +4,7 @@
 * Purpose was to learn more about android, which leads me to develop this application
 * Many ideas about the vulnerabilty was taken from already developed vulnerable applications
 * Completely written in Java
+* Last, Issues/Feedbacks are always welcome.
 
 # Vulnerabilities
 * Root Detection Bypass
