@@ -19,10 +19,10 @@
 * Hardcoded Credentials
 
 # Usage
-* You can compile the application or can use the already compiled apk from here.
+* You can compile the application or can use the already compiled apk from Release Section.
 
-# Walkthrough (In Progress)
-* You can check my blog for the writeup/walkthrough.
+# Walkthrough 
+* http://divyanshudiwakar.com/index.php/fakeapp-walkthrough/
 
 # Creator
 * Twitter: [Divyanshu Diwakar](https://twitter.com/Ddiwakr)
